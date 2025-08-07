@@ -1,3 +1,5 @@
+import LowcodeEditor from './editor';
+
 export default function App() {
-    return <div>react</div>
+    return <LowcodeEditor></LowcodeEditor>
 }
