@@ -7,7 +7,7 @@ import { Material } from "./components/Material";
 
 export default function ReactPlayground() {
     return <div className='h-[100vh] flex flex-col'>
-        <div className='h-15 flex items-center b-b-1px b-#000'>
+        <div className='h-15 flex items-center b-b-1px b-b-#000 b-b-solid'>
             <Header />
         </div>
         <Allotment>
