@@ -2,9 +2,9 @@ import type { CommonComponentProps } from "@/pages/editor/interface";
 import type { Ref } from "react";
 import { useMaterailDrop } from "../../hook/useMaterialDrop";
 
-function Page({ id, _name, children }: CommonComponentProps) {
+function Page({ id, children }: CommonComponentProps) {
     const {canDrop, drop } = useMaterailDrop(['Button', 'Container'], id);
-    
+
     return (
         <div
             ref={drop as unknown as Ref<HTMLDivElement>}
